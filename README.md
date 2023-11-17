@@ -1,3 +1,3 @@
-# fatorial-js
+# exercicio-js
 
 Exercícios JS
