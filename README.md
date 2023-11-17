@@ -1,3 +1,3 @@
 # fatorial-js
 
-Calculando Fatorial em JS
+Exercícios JS
