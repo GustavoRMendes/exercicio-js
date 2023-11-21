@@ -1,0 +1,11 @@
+{
+    "nome": "Gustavo",
+    "idade":19,
+    "programador":true,
+    "time":"Barcelona",
+    "detalhes": {
+        "empresa": "x",
+        "profissao": "programador"
+    },
+    "hobbies": ["Assistir Futebol","Treinar","Ler"]
+}
