@@ -1,20 +1,5 @@
-export function mensagem(){
-   alert('top');
-}
+import {dobro,soma,subtrair } from "./funcoes.js";
+console.log(dobro(10));
+console.log(soma(0,30))
+console.log(subtrair(10,20))
 
-export let nome = 'Gustavo'
-
-export function calcular(number,number2){
-    return number % number2 === 0; 
-}
-
-export const arr = ['Gustavo','Felipe','Gaby'];
-
-export const obj = {
-    nome:'Maria',
-    idade:19,
-    time:'Flamengo',
-    programadora:true
-}
-
-export default 50
