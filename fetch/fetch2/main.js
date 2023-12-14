@@ -6,7 +6,7 @@ let url =('https://jsonplaceholder.typicode.com/todos/1')
 
 async function resolver(){
     let resposta = fetch(url)
-    let text = await (await resposta).text();
+    let text = await resposta.text();
     console.log(text);
 }
 
