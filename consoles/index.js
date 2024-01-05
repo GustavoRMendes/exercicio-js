@@ -1,0 +1,5 @@
+console.log("log")
+console.warn("warn")
+console.error("error")
+console.info("info")
+console.debug("d")
