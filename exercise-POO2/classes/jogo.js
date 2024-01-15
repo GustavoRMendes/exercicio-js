@@ -1,0 +1,28 @@
+const Character = require("./classes/Character");
+const Mage = require("./classes/Mage");
+const Thief = require("./classes/Thief");
+const Warrior = require("./classes/Warrior");
+const thief1 = new Thief("Sirius",100,40,20)
+const character1 = new Character("Gustavo",100,80,30)
+const mage1 = new Mage("Harry",100,50,40,40)
+const warrior1 = new Warrior("Guerreiro",200,90,60,30,"attack")
+console.table(character1)
+console.table(character1.attackOponnent(thief1,thief1.defense,thief1.life))
+console.table(thief1)
+console.table(thief1.attackOponnent(character1,character1.life,character1.defense))
+console.table(character1)
+console.table(mage1)
+console.table(mage1.increaseLife(character1,character1.life))
+console.table(character1)
+console.table(mage1.increaseLife(thief1,thief1.life))
+console.table(thief1)
+console.table(mage1.attackOponnent(thief1,thief1.defense,thief1.life))
+console.table(thief1)
+console.table(warrior1.defense)
+console.table(warrior1.attackOponnent(character1,character1.life,character1.defense))
+console.table(character1)
+console.table(warrior1.changePosition())
+console.table(warrior1.defense)
+console.table(warrior1.attackOponnent(character1,character1.life,character1.defense))
+console.table(character1)
+console.table({character1,warrior1,mage1,thief1})
